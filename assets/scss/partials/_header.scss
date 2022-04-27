@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    .learn-more {
+        background-color: transparent !important;
+        transition: .5s;
+
+        &:hover {
+            color: gray !important;
+            background-color: white !important;
+        }
+    }
+
+    nav {
+        .others {
+            ul {
+                li {
+                    a {
+                        color: gray !important;
+                        transition: .5s;
+
+                        &:hover {
+                            color: white !important;
+                            transition: .5s;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

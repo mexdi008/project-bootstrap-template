@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header .learn-more {
+  background-color: transparent !important;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+header .learn-more:hover {
+  color: gray !important;
+  background-color: white !important;
+}
+
+header nav .others ul li a {
+  color: gray !important;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+header nav .others ul li a:hover {
+  color: white !important;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+/*# sourceMappingURL=main.css.map */
